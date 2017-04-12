@@ -13,6 +13,10 @@ h1 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: normal;
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
 }
 
 .weightloss {
@@ -33,11 +37,11 @@ h1 {
 .jumbotron {
   background: url(https://lh3.googleusercontent.com/LfaEVgS9NfaNDSslXW3mi5A9gRe_IBYi3MCxCA8el2DwuDyljLIDwVL_7uev7aa6rzGGAw=s128) no-repeat center center;
   background-size: cover;
-  height: 800px;
+  height: 500px;
 }
 
 .header {
-  background-color: #333;
+  background-color: #fff;
 }
 
 .nav {
@@ -47,7 +51,7 @@ h1 {
 }
 
 .nav li {
-  color: #fff;
+  color: #333;
   display: inline;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -59,7 +63,7 @@ h1 {
 
 .main {
   position: relative;
-  top: 180px;
+  top: 100px;
   text-align: center;
 }
 
@@ -67,20 +71,20 @@ h1 {
   color: #333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 55px;
   margin-top: 0;
   margin-bottom: 80px;
-  text-transform: uppercase;
+  text-align: left;
 }
 
 .btn-main {
-  background-color: #333;
-  color: #fff;
+  background-color: #2cff00;
+  color: #333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 1.3px;
-  padding: 16px 40px;
+  padding: 13px 20px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -102,6 +106,7 @@ h1 {
 .supporting {
   padding-top: 80px;
   padding-bottom: 100px;
+  background-color: #baf8ed;
 }
 
 .supporting .col {
