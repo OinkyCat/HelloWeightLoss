@@ -2,15 +2,22 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
+b {
+  font-weight: 1000;
+}
 h1 {
   font-weight: normal;
+}
+
+.space {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .hello {
   font-size: 28px;
   color: #FFF;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: normal;
   background-color: #333;
@@ -22,22 +29,23 @@ h1 {
 .weightloss {
   font-size: 28px;
   color: #FFF;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: normal;
 }
 
 .container {
-  max-width: 940px;
-  margin: 0 auto;
+
+  margin: 40px;
   padding: 0 10px;
   text-align: center;
 }
 
 .jumbotron {
-  background: url(https://lh3.googleusercontent.com/LfaEVgS9NfaNDSslXW3mi5A9gRe_IBYi3MCxCA8el2DwuDyljLIDwVL_7uev7aa6rzGGAw=s128) no-repeat center center;
-  background-size: cover;
-  height: 500px;
+  background: url(https://mail.google.com/mail/u/0/?ui=2&ik=fc9cd8ba27&view=fimg&th=15b62366fa313a00&attid=0.1&disp=inline&safe=1&attbid=ANGjdJ-8YagDXGzyLoirOkjHkdnvN4GypLAe4IKUCagFcTrw-pS4qrFdQ-yqbNt7JBwpGOmOUJd5WuFvDqnZ0h0zHgA1notABFbcxzfn-pp2tWFQoLxlZhf3Wf7WMoA&ats=1492110367485&rm=15b62366fa313a00&zw&sz=w897-h473) no-repeat right;
+  background-size:;
+  height: 470px;
+  background-color: #EF5E1B;
 }
 
 .header {
@@ -53,7 +61,7 @@ h1 {
 .nav li {
   color: #333;
   display: inline;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 12px;
   margin-right: 25px;
@@ -64,23 +72,31 @@ h1 {
 .main {
   position: relative;
   top: 100px;
-  text-align: center;
+  text-align: left;
+  padding: 0;
+  margin: 20px;
 }
 
 .main h1 {
-  color: #333;
-  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 40px;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
   text-align: left;
 }
 
+a {
+  margin-top: 40px
+  margin-bottom: 40px
+}
+
 .btn-main {
-  background-color: #2cff00;
-  color: #333;
-  font-family: 'Raleway', sans-serif;
+  background-color: #bbc4bd;
+  border-radius: 20%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1.3px;
@@ -92,7 +108,7 @@ h1 {
 .btn-default {
   border: 1px solid #333;
   color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 10px;
   letter-spacing: 1.3px;
@@ -106,13 +122,13 @@ h1 {
 .supporting {
   padding-top: 80px;
   padding-bottom: 100px;
-  background-color: #baf8ed;
+  background-color: #fff;
 }
 
 .supporting .col {
   float: left;
   width: 33%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -145,7 +161,7 @@ h1 {
 }
 
 .footer p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
 }
